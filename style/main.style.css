@@ -88,9 +88,8 @@ body {
   color: rgba(19, 98, 202, 0.877);
 }
 
-.main-content .weather #search-bar:active {
-  border-radius: 50px;
-  border: 3px solid black;
+.main-content .weather #search-bar:focus {
+  outline: none;
 }
 
 .main-content .weather #search-bar:hover {
