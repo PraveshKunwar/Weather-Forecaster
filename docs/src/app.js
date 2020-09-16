@@ -11,7 +11,7 @@ function changeValue() {
       .then((data) => {
         if (data.location == undefined) {
           document.getElementById("para-results").innerHTML =
-            "❌ Couldn't Find Location ❌";
+            "<bold>❌ Couldn't Find Location ❌</bold>  ";
         }
         document.getElementById(
           "para-results"
