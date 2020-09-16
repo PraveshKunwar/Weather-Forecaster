@@ -13,7 +13,7 @@
       content="Weather, Weather Forecaster, PraveshK, Pravesh Kunwar"
     />
     <link rel="stylesheet" type="text/css" href="./main.style.css" />
-    <link rel="icon" href="../favicon.png" type="image/png" />
+    <link rel="icon" href="./images/favicon.png" type="image/png" />
     <link
       href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@500&display=swap"
       rel="stylesheet"
@@ -37,6 +37,23 @@
           <bold>Enjoy!</bold>
         </div>
         <div class="weather">
+          <svg
+            id="icon-search"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-search"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <circle cx="10" cy="10" r="7" />
+            <line x1="21" y1="21" x2="15" y2="15" />
+          </svg>
           <input
             type="text"
             placeholder="Search by City or Zipcode"
@@ -45,6 +62,11 @@
         </div>
         <div class="results">
           <h1>Weather Results:</h1>
+          <p id="para-results"></p>
+          <p id="para-results2"></p>
+          <img id="img-icon" src="./images/favicon.png" />
+          <p id="para-results3"></p>
+          <p id="para-results4"></p>
         </div>
       </div>
       <div class="powered-by">
